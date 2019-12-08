@@ -1,0 +1,1377 @@
+* scene:
+	probe: rgb32cube: venice_dawn
+	irradiance: default_shcoeffs
+
+* background:
+	cube: rgb32cube: venice_dawn
+
+* camera:
+	position: 2.3,2.2,5.4
+	center: 1.8,2.0,4.5
+	up: 0.0,1.0,-0.2
+	fov: 1.3
+
+* point:
+	position: 0.384,2.5,2.9
+	intensity: 2.0,1.8,1.0
+	radius: 4.0
+	shadows: true
+
+* point:
+	position: 2.63,1.42,1.685
+	intensity: 0.5,1.5,2.0
+	radius: 4.0
+	shadows: true
+
+
+* object:
+	mesh: livingroom_Default_18
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1458
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioPlastic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioPlastic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_12018
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_12102
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_12618
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_13134
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LampshaderOuter_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LampshaderOuter_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_21582
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LargePicture_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LargePicture_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_21588
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_41364
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_54420
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Apple_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Apple_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_58164
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Walls_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Walls_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_61080
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_91608
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioPlastic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioPlastic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_111072
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Cushion_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Cushion_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116112
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116196
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TableGlossy_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TableGlossy_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116328
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116412
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116496
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_116628
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119124
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119208
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TvScreen_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TvScreen_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119214
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119298
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119382
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119466
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_119550
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_144702
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_189246
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_189330
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_193170
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_193254
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_193338
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LampStand_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LampStand_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_196026
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Default_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Default_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_196086
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_196170
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_196254
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_240798
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_256158
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_256242
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SmallPictureFrame_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SmallPictureFrame_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_256626
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_815730
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Picture2_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Picture2_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_815736
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Magazine_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Magazine_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_815964
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SmallPictureFrame_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SmallPictureFrame_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_816348
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TvBevel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TvBevel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_816474
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_816510
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_817746
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioPlastic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioPlastic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_821634
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	textures:
+		- srgb: livingroom_CeilingLampshade_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_CeilingLampshade_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_829698
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackMarble_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackMarble_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_829926
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Trim_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Trim_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_830790
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Cushion1_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Cushion1_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_835830
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_837018
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Default_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Default_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_838098
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Cushion1_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Cushion1_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_843138
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_CandleHolders_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_CandleHolders_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_846450
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_CandleHolders_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_CandleHolders_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_850338
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_850422
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Apple_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Apple_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_854166
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_859326
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_862206
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Picture_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Picture_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_862212
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Cushion3_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Cushion3_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_867252
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_867384
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_868500
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Default_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Default_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_869580
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_869712
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SmallPictureFrame_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SmallPictureFrame_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_870096
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_870768
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioSurround_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioSurround_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_875520
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_899904
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_927936
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Ceramic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Ceramic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_940608
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_CandleHolders_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_CandleHolders_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_944208
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_957264
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Default_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Default_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_960180
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_964404
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_964488
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_988872
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1014984
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Apple_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Apple_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1018728
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TableGlossy_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TableGlossy_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1059432
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1059516
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Picture1_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Picture1_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1059522
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Apple_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Apple_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1063266
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1065426
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1067730
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1067862
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1068030
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Books_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Books_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1068114
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1069350
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Picture4_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Picture4_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1069356
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1069488
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1086336
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioPlastic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioPlastic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1092768
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_LoveLettersBack_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_LoveLettersBack_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1092816
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1094352
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1118736
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Picture5_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Picture5_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1118742
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SmallPictureFrame_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SmallPictureFrame_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1119126
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TableGlossy_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TableGlossy_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1146006
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Walls_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Walls_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1147086
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Ceramic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Ceramic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1175886
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1234830
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioInside_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioInside_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1235370
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1236222
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1237074
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1238406
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1252998
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1253166
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1253250
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1312194
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1312230
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1313670
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1315110
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1315146
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1328394
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1328478
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1328646
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorKnobOuter_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorKnobOuter_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1338630
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlindMaterial_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlindMaterial_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1339824
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1341552
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioSurround_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioSurround_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1346160
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1359408
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1374960
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1399152
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1400304
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1421040
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BlackWroughtIron_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BlackWroughtIron_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1422192
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Walls_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Walls_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1422390
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Floor_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Floor_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1422588
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1424892
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Trim_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Trim_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1426608
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Trim_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Trim_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1430388
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Walls_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Walls_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1431384
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1444128
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Walls_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Walls_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1447044
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_SofaLeather_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_SofaLeather_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1491588
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadioPlastic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadioPlastic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1493652
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Carpet_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Carpet_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1495716
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_TableGlossy_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_TableGlossy_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1495788
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1499628
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_RadiatorPanelsEnamel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_RadiatorPanelsEnamel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1503468
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Ceramic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Ceramic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1548972
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Ceramic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Ceramic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1577388
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_Ceramic_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_Ceramic_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1664652
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1664688
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_DullSteel_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_DullSteel_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1665456
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_BackLight_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_BackLight_texture_rough_met_ao
+
+* object:
+	mesh: livingroom_Default_1665462
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: livingroom_WhitePaint_texture_color
+		- rgb: default_normal
+		- rgb: livingroom_WhitePaint_texture_rough_met_ao
+

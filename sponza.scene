@@ -1,0 +1,3646 @@
+* scene:
+	probe: rgb32cube: kiara_dawn
+	irradiance: default_shcoeffs
+	scaling: 0.01
+
+* background:
+	cube: rgb32cube: kiara_dawn
+
+* camera:
+	position: 5.49696,2.94685,-0.351245
+	center: 4.38044,3.00498,-0.351935
+	up: 0.0519943,0.998647,3.21001e-05
+	fov: 1.4
+	planes: 0.463698,1003.85
+
+* point:
+	position: 0.0,2.0,0.0
+	intensity: 10.0,8.0,0.0
+	radius: 4.0
+	shadows: true
+	animations:
+		- backandforth: 1.1 world 1.0,0.0,0.0 9.0
+
+* point:
+	position: 0.0,7.0,0.0
+	intensity: 0.0,8.0,12.0
+	radius: 6.0
+	shadows: true
+	animations:
+		- backandforth: 0.9 world 1.0,0.0,0.0 5.0
+* spot:
+	position: 0.0,4.5,1.0
+	direction: 0.0,-1.0,-1.0
+	intensity: 12.0,0.0,5.0
+	radius: 7.0
+	cone: 0.5 0.75
+	shadows: true
+	animations:
+		- rotation: 0.7 world 0.0,1.0,0.0
+
+* directional:
+	direction: 0.2,-1.0,0.1
+	intensity: 0.5,0.7,1.0
+	shadows: true
+
+* object:
+	mesh: sponza_sponza_81_0
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_112_264
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_338_528
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_85_1338
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_47_1602
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_352_2082
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_158_7005
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_74_10665
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_details_texture_color
+		- rgb: default_normal
+		- rgb: sponza_details_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_23_11499
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_278_12285
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_323_23691
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_c_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_190_38283
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_347_38781
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_170_39591
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_193_39645
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_102_39777
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_269_40041
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_154_41409
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_230_41463
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_308_41595
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_354_42963
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_246_46695
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_202_50355
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_77_54015
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_296_54237
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_292_55605
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_42_56973
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_222_57309
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_94_58209
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_304_58431
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_310_59799
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_191_61167
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_220_64827
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_110_64881
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_309_65145
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_132_65721
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_163_65775
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_133_65829
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_372_65961
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_12_72594
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_275_73794
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_90_91584
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_157_91848
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_283_92346
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_d_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_d_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_382_108858
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_259_108888
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_274_109566
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_183_110244
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_342_110298
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_82_110304
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_180_110568
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_63_114228
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_320_114348
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_g_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_g_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_325_128940
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_c_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_66_143532
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_106_143628
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_258_143892
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_28_144084
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_226_145272
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_33_145404
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_360_146592
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_155_146598
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_141_146730
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_328_146784
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_c_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_340_160608
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_137_160614
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_322_160668
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_f_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_f_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_264_175260
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_159_175938
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_349_175992
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_201_175998
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_334_176496
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_234_181419
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_171_181917
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_324_182049
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_f_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_f_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_253_195873
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_99_195927
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_56_196191
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_207_196311
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_177_196365
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_50_196497
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_277_196833
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_187_203445
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_365_203499
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_21_204309
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_248_205953
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_327_206085
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_f_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_f_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_20_220677
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_249_222321
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_17_222375
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_144_231063
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_142_231195
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_345_231327
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_356_235059
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_257_235869
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__47_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__47_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_245_235923
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_148_236421
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_363_236475
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_332_240207
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_368_240213
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_1_246846
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_369_248250
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_2_254883
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_375_256083
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_texture_color
+		- rgb: sponza_vase_texture_normal
+		- rgb: sponza_vase_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_103_262971
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_212_263235
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_15_263733
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_79_264279
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_312_264543
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_366_265119
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_3_271752
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_108_273156
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_379_273420
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_199_273504
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_316_273636
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_286_275004
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_d_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_d_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_300_291516
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_279_292092
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_233_302016
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_08_302916
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_44_309912
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_204_310248
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_335_310380
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_268_312054
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_282_313422
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_e_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_e_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_131_329934
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_107_330066
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_173_330330
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_319_330462
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_76_331830
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_182_332052
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_101_332184
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_129_332448
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_67_332580
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_343_333420
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_235_338343
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_293_342003
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_59_343371
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_307_343491
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_53_344859
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_01_345339
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_4_351972
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_298_353376
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_93_354744
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_208_355008
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_29_355140
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_294_355926
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_161_356502
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_128_356556
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_168_356610
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_84_357108
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_164_357372
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_49_357504
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_314_357984
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_351_359352
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_41_359358
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_284_359838
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_a_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_301_376350
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_198_377718
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_54_377772
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_100_378108
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_113_378372
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_373_378636
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_texture_color
+		- rgb: sponza_vase_texture_normal
+		- rgb: sponza_vase_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_326_385524
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_g_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_g_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_30_399348
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_244_400134
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_75_401034
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_192_401184
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_27_401238
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_265_402426
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_98_403794
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_281_404058
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_39_413982
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_339_414462
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_145_414468
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_34_415368
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_318_415980
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_126_416556
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_52_416610
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_37_416946
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_114_417426
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_03_417648
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__298_texture_color
+		- rgb: sponza_Material__298_texture_normal
+		- rgb: sponza_Material__298_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_289_421734
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_d_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_d_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_181_438246
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_88_438300
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_219_438564
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_194_438696
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_124_438750
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_371_444330
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_5_450963
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_43_452163
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_184_452643
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_26_452775
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_86_453561
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_12_453825
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_09_454371
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_252_454917
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_71_455049
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_details_texture_color
+		- rgb: default_normal
+		- rgb: sponza_details_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_6_455295
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_151_455367
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_174_455499
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_280_455553
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_97_468819
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_239_469041
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_210_469173
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_05_469305
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_200_469329
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_262_470229
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_221_470907
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_175_471039
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_136_471171
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_72_474831
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_details_texture_color
+		- rgb: default_normal
+		- rgb: sponza_details_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_7_475077
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_195_475149
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_125_475281
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_87_478941
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_333_479205
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_65_479211
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_215_479331
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_376_479463
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_texture_color
+		- rgb: sponza_vase_texture_normal
+		- rgb: sponza_vase_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_117_486351
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_floor_texture_color
+		- rgb: default_normal
+		- rgb: sponza_floor_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_22_486366
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_109_487554
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_68_487818
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_36_487872
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_228_488316
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_299_488448
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_358_489816
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_276_489822
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_225_504288
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_55_504342
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_209_504462
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_247_504516
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_238_504570
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_313_504624
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_165_505992
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_73_506046
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_details_texture_color
+		- rgb: default_normal
+		- rgb: sponza_details_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_213_506880
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_105_510540
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_46_510804
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_143_511140
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_61_511194
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_60_511314
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_11_511434
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_156_511980
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_359_512880
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_150_512886
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_255_512940
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_172_513840
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_271_513894
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_134_515262
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_357_516162
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_96_516168
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_104_516390
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_162_516654
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_118_516786
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_378_517806
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__298_texture_color
+		- rgb: sponza_Material__298_texture_normal
+		- rgb: sponza_Material__298_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_8_521892
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__25_texture_color
+		- rgb: sponza_Material__25_texture_normal
+		- rgb: sponza_Material__25_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_267_526455
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_285_527133
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_e_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_e_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_214_543645
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_240_543699
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_152_543753
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_306_543807
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_377_544383
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__298_texture_color
+		- rgb: sponza_Material__298_texture_normal
+		- rgb: sponza_Material__298_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_9_548469
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_Material__25_texture_color
+		- rgb: sponza_Material__25_texture_normal
+		- rgb: sponza_Material__25_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_69_553032
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_263_553140
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_303_554508
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_16_555084
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_261_555630
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_166_556998
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_58_557130
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_179_557250
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_10_557748
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_139_558294
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_287_558348
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_e_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_e_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_206_574860
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_13_574992
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_130_575538
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_380_575592
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_roof_texture_color
+		- rgb: default_normal
+		- rgb: sponza_roof_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_19_577080
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_186_584076
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_176_584208
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_242_584262
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_330_584316
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_135_584322
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_146_584820
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_31_585318
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_227_586104
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_121_586158
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_346_587178
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_250_590910
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_251_591042
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_48_591096
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_288_591432
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_a_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_321_607944
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_c_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_355_621768
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_381_625500
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_roof_texture_color
+		- rgb: default_normal
+		- rgb: sponza_roof_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_341_667464
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_160_667470
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_18_667602
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_floor_texture_color
+		- rgb: default_normal
+		- rgb: sponza_floor_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_237_667650
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_241_667782
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_07_667914
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_364_668754
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_297_672486
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_224_673062
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_06_676722
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_83_677022
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_205_677286
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_38_677340
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_188_677676
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_32_677808
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_348_678594
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_302_678600
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_362_679968
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_350_681642
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_353_681648
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_115_683322
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_311_683544
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_70_684912
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_details_texture_color
+		- rgb: default_normal
+		- rgb: sponza_details_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_223_685392
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_89_685890
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_120_686154
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_138_687174
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_45_687306
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_122_687786
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_140_687834
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_95_687966
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_78_688188
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_254_688452
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_51_688584
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_374_689064
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_texture_color
+		- rgb: sponza_vase_texture_normal
+		- rgb: sponza_vase_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_270_695952
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_370_696630
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_10_703263
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_147_704463
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_153_708123
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_336_708255
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_00_711987
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_leaf_texture_color
+		- rgb: sponza_leaf_texture_normal
+		- rgb: sponza_leaf_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_260_722907
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_111_724275
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_272_724539
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_119_725217
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_62_726237
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_232_726357
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_273_726489
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_123_727857
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_216_733437
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_295_733491
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_40_734859
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_256_735195
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_25_735693
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_178_736479
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_185_737379
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_290_737433
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_35_738801
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_ceiling_texture_color
+		- rgb: default_normal
+		- rgb: sponza_ceiling_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_169_739413
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_189_743073
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_80_743973
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_203_744237
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_57_744291
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_231_744411
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_92_744465
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_64_744729
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_arch_texture_color
+		- rgb: default_normal
+		- rgb: sponza_arch_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_317_744849
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_291_746217
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_217_746793
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_14_746925
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_a_texture_color
+		- rgb: sponza_column_a_texture_normal
+		- rgb: sponza_column_a_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_344_747471
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_116_749145
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_bricks_texture_color
+		- rgb: sponza_bricks_texture_normal
+		- rgb: sponza_bricks_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_236_749295
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_196_749349
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_127_749403
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_24_749535
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_243_750321
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_211_750453
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_167_751353
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_337_752253
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_91_755985
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_c_texture_color
+		- rgb: sponza_column_c_texture_normal
+		- rgb: sponza_column_c_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_315_756249
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_305_756825
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_329_758193
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_fabric_g_texture_color
+		- rgb: default_normal
+		- rgb: sponza_fabric_g_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_361_772785
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_hanging_texture_color
+		- rgb: default_normal
+		- rgb: sponza_vase_hanging_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_331_777708
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_chain_texture_color
+		- rgb: sponza_chain_texture_normal
+		- rgb: sponza_chain_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_149_777714
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_266_777846
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_flagpole_texture_color
+		- rgb: default_normal
+		- rgb: sponza_flagpole_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_197_778524
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_367_778656
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_vase_round_texture_color
+		- rgb: sponza_vase_round_texture_normal
+		- rgb: sponza_vase_round_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_art_11_785289
+	shadows: true
+	type: PBRRegular
+	twosided: true
+	masked: true
+	textures:
+		- srgb: sponza_Material__57_texture_color
+		- rgb: default_normal
+		- rgb: sponza_Material__57_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_229_786693
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+
+* object:
+	mesh: sponza_sponza_218_786747
+	shadows: true
+	type: PBRRegular
+	textures:
+		- srgb: sponza_column_b_texture_color
+		- rgb: sponza_column_b_texture_normal
+		- rgb: sponza_column_b_texture_rough_met_ao
+

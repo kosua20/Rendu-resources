@@ -1,0 +1,88 @@
+* scene:
+	translation: 0.0,0.0,-2.0
+	scaling: 0.15
+	probe: rgb32cube: entrance_hall
+	irradiance: entrance_hall_shcoeffs
+
+* background:
+	color: 0.2,0.15,0.1
+
+
+* camera:
+	position: 0.3,0.015,-1.6
+	center: -0.31,-0.24,-2.32
+	up: -0.17,0.97,-0.19
+	fov: 1.3
+	planes: 0.01,10.0
+
+# Light
+* point:
+	position: 0.03,0.16,-1.805
+	intensity: 10.0,6.0,0.2
+	radius: 0.8
+	shadows: true
+
+# Objects
+* object:
+	type: PBRRegular
+	mesh: candle
+	textures:
+		- srgb: candle_albedo
+		- rgb: candle_normal
+		- rgb: candle_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: desk
+	textures:
+		- srgb: desk_albedo
+		- rgb: desk_normal
+		- rgb: desk_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: hammer
+	textures:
+		- srgb: hammer_albedo
+		- rgb: hammer_normal
+		- rgb: hammer_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: lighter
+	textures:
+		- srgb: lighter_albedo
+		- rgb: lighter_normal
+		- rgb: lighter_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: rock
+	textures:
+		- srgb: rock_albedo
+		- rgb: rock_normal
+		- rgb: rock_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: screwdriver
+	textures:
+		- srgb: screwdriver_albedo
+		- rgb: screwdriver_normal
+		- rgb: screwdriver_rough_met_ao
+	shadows: true
+
+* object:
+	type: PBRRegular
+	mesh: spyglass
+	textures:
+		- srgb: spyglass_albedo
+		- rgb: spyglass_normal
+		- rgb: spyglass_rough_met_ao
+	shadows: true
+	
