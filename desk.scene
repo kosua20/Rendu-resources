@@ -18,7 +18,7 @@
 # Light
 * point:
 	position: 0.03,0.16,-1.805
-	intensity: 10.0,6.0,0.2
+	intensity: 30.0,18.0,3.0
 	radius: 0.8
 	shadows: true
 

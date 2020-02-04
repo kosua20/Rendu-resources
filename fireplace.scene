@@ -14,7 +14,7 @@
 
 * directional:
 	direction: 1.0,-0.38,0.5
-	intensity: 10.0,8.0,6.0
+	intensity: 30.0,24.0,18.0
 	shadows: true
 
 * object:
