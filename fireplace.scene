@@ -1,5 +1,6 @@
 * scene:
-	probe: rgb32cube: spruit_sunrise
+	probe: 1.86,1.71,0.40
+	#rgb32cube: spruit_sunrise
 	irradiance: default_shcoeffs
 	orientation: 0.0,1.0,0.0 -0.3
 
