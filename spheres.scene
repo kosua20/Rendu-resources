@@ -1,5 +1,5 @@
-* scene:
-	probe: rgb32cube: studio_3
+* probe: 
+	radiance: rgb32cube: studio_3
 	irradiance: studio_3_shcoeffs
 
 * background:

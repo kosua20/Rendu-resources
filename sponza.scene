@@ -1,7 +1,9 @@
 * scene:
-	probe: rgb32cube: kiara_dawn
-	irradiance: default_shcoeffs
 	scaling: 0.01
+
+* probe:
+	radiance: rgb32cube: kiara_dawn
+	irradiance: default_shcoeffs
 
 * background:
 	cube: rgb32cube: kiara_dawn

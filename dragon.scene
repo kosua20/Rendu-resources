@@ -1,6 +1,5 @@
-* scene:
-	probe: 0.0,0.25,0.5
-	irradiance: default_shcoeffs
+* probe: 
+	position: 0.0,0.25,0.5
 
 * background: 
 	sun: 2.0,1.5,0.0
@@ -51,48 +50,3 @@
 	shadows: false
 
 # Lights
-* directional:
-	# Replicate the sun movement, the direction and animation should be the reverse of the sky ones.
-	direction: -2.0,-1.5,0.0
-	intensity: 3.0,3.0,2.7
-	shadows: true
-	animations:
-		- backandforth: 0.75 world 0.0,1.0,0.0 0.6
-		
-* spot:
-	position: 1.1,2.0,1.1
-	direction: -1.0,-1.0,-1.0
-	radius: 5.0
-	cone: 0.5 0.6
-	shadows: true
-	animations:
-		- backandforth: 0.5 world 1.0,0.0,1.0 2.0
-	intensity: 0.0,30.0,30.0
-* point:
-	position: -1.0,-0.1,-1.0
-	intensity: 12.0,0.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: 1.0,-0.1,-1.0
-	intensity: 0.0,12.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: -1.0,-0.1,1.0
-	intensity: 0.0,0.0,12.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: 1.0,-0.1,1.0
-	intensity: 12.0,12.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0

@@ -1,5 +1,5 @@
-* scene:
-	probe: rgb32cube: venice_dawn
+* probe: 
+	radiance: rgb32cube: venice_dawn
 	irradiance: default_shcoeffs
 
 * background:

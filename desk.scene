@@ -1,7 +1,9 @@
 * scene:
 	translation: 0.0,0.0,-2.0
 	scaling: 0.15
-	probe: rgb32cube: entrance_hall
+
+* probe: 
+	radiance: rgb32cube: entrance_hall
 	irradiance: entrance_hall_shcoeffs
 
 * background:
