@@ -2,7 +2,7 @@
 	orientation: 0.0,1.0,0.0 -0.3
 
 * probe:
-	position: 1.86,1.71,0.40
+	position: 2.0,1.5,-1.0
 
 * background:
 	cube: rgb32cube: spruit_sunrise

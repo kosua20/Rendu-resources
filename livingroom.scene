@@ -1,6 +1,5 @@
 * probe: 
-	radiance: rgb32cube: venice_dawn
-	irradiance: default_shcoeffs
+	position: 0.5, 1.5, 3.0
 
 * background:
 	cube: rgb32cube: venice_dawn

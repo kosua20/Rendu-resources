@@ -2,8 +2,7 @@
 	scaling: 0.01
 
 * probe:
-	radiance: rgb32cube: kiara_dawn
-	irradiance: default_shcoeffs
+	position: 0.0,12.0,0.0
 
 * background:
 	cube: rgb32cube: kiara_dawn
