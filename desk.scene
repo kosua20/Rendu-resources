@@ -26,7 +26,7 @@
 
 # Objects
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: candle
 	textures:
 		- srgb: candle_albedo
@@ -35,7 +35,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: desk
 	textures:
 		- srgb: desk_albedo
@@ -44,7 +44,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: hammer
 	textures:
 		- srgb: hammer_albedo
@@ -53,7 +53,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: lighter
 	textures:
 		- srgb: lighter_albedo
@@ -62,7 +62,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: rock
 	textures:
 		- srgb: rock_albedo
@@ -71,7 +71,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: screwdriver
 	textures:
 		- srgb: screwdriver_albedo
@@ -80,7 +80,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: spyglass
 	textures:
 		- srgb: spyglass_albedo

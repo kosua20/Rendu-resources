@@ -16,7 +16,7 @@
 
 # Objects
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: suzanne
 	translation: 0.2,0.0,0.0
 	scaling: 0.25
@@ -29,7 +29,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: dragon
 	translation: -0.1,-0.05,-0.25
 	scaling: 0.5
@@ -40,7 +40,7 @@
 	shadows: true
 
 * object:
-	type: PBRParallax
+	type: Parallax
 	mesh: groundplane
 	translation: 0.0,-0.35,-0.5
 	scaling: 2.0

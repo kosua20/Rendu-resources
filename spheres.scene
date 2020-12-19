@@ -13,7 +13,7 @@
 
 # Objects
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: sphere
 	translation: 1.2,0.0,0.0
 	scaling: 0.9
@@ -26,7 +26,7 @@
 	shadows: true
 
 * object:
-	type: PBRRegular
+	type: Regular
 	mesh: sphere
 	translation: -1.2,0.0,0.0
 	scaling: 0.9

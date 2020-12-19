@@ -24,7 +24,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Mesh_0
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-TableWood_texture_color
 		- rgb: default_normal
@@ -33,7 +33,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Glass_35316
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Glass_texture_color
 		- rgb: default_normal
@@ -42,7 +42,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BottleCap_60660
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BottleCap_texture_color
 		- rgb: default_normal
@@ -51,7 +51,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Glass_71796
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Glass_texture_color
 		- rgb: default_normal
@@ -60,7 +60,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-TableWood_79950
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-TableWood_texture_color
 		- rgb: default_normal
@@ -69,7 +69,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-PaintingBack_80310
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		#srgb: fireplace_grey_and_white_room-TableWood_texture_color
 		#rgb: default_normal
@@ -81,7 +81,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_80382
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-MattePaint_texture_color
 		- rgb: default_normal
@@ -90,7 +90,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Painting_80454
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Painting_texture_color
 		- rgb: default_normal
@@ -99,7 +99,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Leaves_80460
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	masked: true
 	twosided: true
 	textures:
@@ -110,7 +110,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Branches_82908
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Branches_texture_color
 		- rgb: default_normal
@@ -119,7 +119,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Leaves_84276
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	masked: true
 	twosided: true
 	textures:
@@ -130,7 +130,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Branches_86724
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Branches_texture_color
 		- rgb: default_normal
@@ -139,7 +139,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Dirt_88092
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Dirt_texture_color
 		- rgb: default_normal
@@ -148,7 +148,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-PlantPot_88464
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-PlantPot_texture_color
 		- rgb: default_normal
@@ -157,7 +157,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_90516
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BottleCap_texture_color
 		- rgb: default_normal
@@ -166,7 +166,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-SofaLegs_130080
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-SofaLegs_texture_color
 		- rgb: default_normal
@@ -175,7 +175,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Sofa_130368
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Sofa_texture_color
 		- rgb: default_normal
@@ -184,7 +184,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_331248
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -193,7 +193,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_339984
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-MattePaint_texture_color
 		- rgb: default_normal
@@ -202,7 +202,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Walls_340074
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Walls_texture_color
 		- rgb: default_normal
@@ -211,7 +211,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Floor_340722
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Floor_texture_color
 		- rgb: default_normal
@@ -220,7 +220,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_341055
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-MattePaint_texture_color
 		- rgb: default_normal
@@ -229,7 +229,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_341349
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -238,7 +238,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Mirror_341613
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Mirror_texture_color
 		- rgb: default_normal
@@ -247,7 +247,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-FireplaceGlass_341643
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-FireplaceGlass_texture_color
 		- rgb: default_normal
@@ -256,7 +256,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_341667
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -265,7 +265,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Walls_356805
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Walls_texture_color
 		- rgb: default_normal
@@ -274,7 +274,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_356841
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -283,7 +283,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BrushedStainlessSteel_363435
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BrushedStainlessSteel_texture_color
 		- rgb: default_normal
@@ -292,7 +292,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_365451
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -301,7 +301,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BrushedStainlessSteel_370977
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BrushedStainlessSteel_texture_color
 		- rgb: default_normal
@@ -310,7 +310,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_372993
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -319,7 +319,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BrushedStainlessSteel_379935
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	twosided: true
 	textures:
 		- srgb: fireplace_grey_and_white_room-BrushedStainlessSteel_texture_color
@@ -329,7 +329,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Leaves_397119
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	masked: true
 	twosided: true
 	textures:
@@ -340,7 +340,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Branches_399567
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Branches_texture_color
 		- rgb: default_normal
@@ -349,7 +349,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Leaves_400935
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	masked: true
 	twosided: true
 	textures:
@@ -360,7 +360,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Branches_403383
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Branches_texture_color
 		- rgb: default_normal
@@ -369,7 +369,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Dirt_404751
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Dirt_texture_color
 		- rgb: default_normal
@@ -378,7 +378,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-PlantPot_405123
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-PlantPot_texture_color
 		- rgb: default_normal
@@ -387,7 +387,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BrushedStainlessSteel_407175
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BrushedStainlessSteel_texture_color
 		- rgb: default_normal
@@ -396,7 +396,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_410295
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-MattePaint_texture_color
 		- rgb: default_normal
@@ -405,7 +405,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Transluscent_410649
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Transluscent_texture_color
 		- rgb: default_normal
@@ -414,7 +414,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-BrushedStainlessSteel_410763
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-BrushedStainlessSteel_texture_color
 		- rgb: default_normal
@@ -423,7 +423,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-MattePaint_413883
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-MattePaint_texture_color
 		- rgb: default_normal
@@ -432,7 +432,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Transluscent_414237
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Transluscent_texture_color
 		- rgb: default_normal
@@ -441,7 +441,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Paneling_414351
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-Paneling_texture_color
 		- rgb: default_normal
@@ -450,7 +450,7 @@
 * object:
 	mesh: fireplace_grey_and_white_room-initialShadingGroup_429489
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-initialShadingGroup_texture_color
 		- rgb: default_normal
@@ -460,7 +460,7 @@
 	mesh: fireplace_Plane.001_Plane.002_421617
 	translation: -0.12 0.0 0.0
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-initialShadingGroup_texture_color
 		- rgb: default_normal
@@ -469,7 +469,7 @@
 	mesh: fireplace_grey_and_white_room-Paneling_414351.003
 	#translation: -0.1 0.0 0.0
 	shadows: true
-	type: PBRRegular
+	type: Regular
 	textures:
 		- srgb: fireplace_grey_and_white_room-initialShadingGroup_texture_color
 		- rgb: default_normal
