@@ -44,6 +44,16 @@ License: CC-BY-3 [[3]][ccpage]
 
 ![Fireplace preview](previews/fireplace.png)
 
+### Staircase
+
+*Modern hall*, NewSee2l035, [Blendswap](https://blendswap.com/blend/6304)
+
+Export: Benedikt Bitterli, Rendering resources [[1]][bbpage]
+
+License: CC-BY-3 [[3]][ccpage]
+
+![Staircase preview](previews/staircase.png)
+
 ### Dragon and monkey
 
 Monkey from Blender, dragon from the Stanford repository, with textures created by Simon Rodriguez. Plane texture from [textures.com](http://textures.com).

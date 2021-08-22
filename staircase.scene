@@ -1,0 +1,361 @@
+* probe: 
+	position: -2.0,3.0,1.0
+	extent: 11.0,2.75,3.2
+	center: -3.5,2.75,0.25
+
+* background:
+	color: 0.5625,0.4216,0.2621
+
+* camera: 
+	position: 5.488007 2.255467 1.170037 
+	center: 4.491034 2.239823 1.093873 
+	up: -0.015598 0.999878 -0.001192 
+	fov: 1.300000 
+	planes: 0.268361 134.180573 
+
+* object:
+	type: Transparent
+	mesh:  staircase_glass_0
+	shadows: true
+	twosided: true
+	textures:
+		- srgb: 0.0,0.9,1.0,0.2
+		- rgb: default_normal
+		- rgb: 0.01,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_wood_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: staircase_wood5_color
+		- rgb: default_normal
+		- rgb: 0.1,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_wood_1
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: staircase_wood5_color
+		- rgb: default_normal
+		- rgb: 0.1,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_wood_2
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: staircase_wood5_color
+		- rgb: default_normal
+		- rgb: 0.1,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_floortiles_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: staircase_Tiles_color
+		- rgb: default_normal
+		- rgb: 0.01,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_Wall_0
+	shadows: true
+	twosided: false
+	skipuvs: true
+	textures:
+		- srgb: 0.1,0.1,0.1
+		- rgb: default_normal
+		- rgb: 0.8,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_Wall_1
+	shadows: true
+	twosided: false
+	skipuvs: true
+	textures:
+		- srgb: 0.893289,0.893289,0.893289
+		- rgb: default_normal
+		- rgb: 0.9,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_Wall_2
+	shadows: true
+	twosided: false
+	skipuvs: true
+	textures:
+		- srgb: 0.893289,0.893289,0.893289
+		- rgb: default_normal
+		- rgb: 0.9,0.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_wallpaper_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: staircase_Wallpaper_color
+		- rgb: default_normal
+		- rgb: 1.0,0.0,1.0
+		
+* object:
+	type: Regular
+	mesh: staircase_SpotHolder_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,0.8,0.0
+		- rgb: default_normal
+		- rgb: 0.5,1.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_SpotHolder_1
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,0.8,0.0
+		- rgb: default_normal
+		- rgb: 0.5,1.0,1.0
+* object:
+	type: Regular
+	mesh: staircase_SpotHolder_2
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,0.8,0.0
+		- rgb: default_normal
+		- rgb: 0.5,1.0,1.0
+* object:
+	type: Regular
+	mesh: staircase_SpotHolder_3
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,0.8,0.0
+		- rgb: default_normal
+		- rgb: 0.5,1.0,1.0
+* object:
+	type: Regular
+	mesh: staircase_SpotHolder_4
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,0.8,0.0
+		- rgb: default_normal
+		- rgb: 0.5,1.0,1.0
+
+
+* object:
+	type: Regular
+	mesh: staircase_chrome_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,1.0,1.0
+		- rgb: default_normal
+		- rgb: 0.1,1.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_chrome_1
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,1.0,1.0
+		- rgb: default_normal
+		- rgb: 0.1,1.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_chrome_2
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,1.0,1.0
+		- rgb: default_normal
+		- rgb: 0.1,1.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_chrome_3
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 1.0,1.0,1.0
+		- rgb: default_normal
+		- rgb: 0.1,1.0,1.0
+
+* object:
+	type: Regular
+	mesh: staircase_metal_0
+	shadows: true
+	twosided: false
+	textures:
+		- srgb: 0.7,0.7,0.7
+		- rgb: default_normal
+		- rgb: 0.3,1.0,1.0
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -2.0,2.0,3.44
+	orientation: 1.0,0.0,0.0 3.141
+	scaling: 4.0
+	textures:
+		- rgb32: 1.5,1.0,0.5
+
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -14.1,2.4,2.5
+	scaling: 2.6
+	orientation: 0.0,1.0,0.0 1.57
+	textures:
+		- rgb32: 0.5,1.0,1.5
+
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: 2.55,1.1,-2.995
+	scaling: 0.08
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: 0.099,2.52,-2.995
+	scaling: 0.08
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -2.34,3.96,-2.995
+	scaling: 0.08
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -4.92,5.54,-2.995
+	scaling: 0.08
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: disk
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -11.464,5.62,1.49
+	scaling: 0.12
+	orientation: 1.0,0.0,0.0 3.14
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: disk
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -8.15,5.62,1.49
+	scaling: 0.12
+	orientation: 1.0,0.0,0.0 3.14
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: disk
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -4.836,5.62,1.49
+	scaling: 0.12
+	orientation: 1.0,0.0,0.0 3.14
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+* object:
+	type: Emissive
+	mesh: disk
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -1.522,5.62,1.49
+	scaling: 0.12
+	orientation: 1.0,0.0,0.0 3.14
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+
+* object:
+	type: Emissive
+	mesh: disk
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: 1.792,5.62,1.49
+	scaling: 0.12
+	orientation: 1.0,0.0,0.0 3.14
+	textures:
+		- rgb32: 8.0,4.0,1.0
+
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -6.58,9.92,3.88
+	scaling: 5.0
+	orientation: 1.0,0.0,0.0 2.15
+	textures:
+		- rgb32: 4.0,1.0,8.0
+
+* object:
+	type: Emissive
+	mesh: plane
+	shadows: false
+	twosided: false
+	skipuvs: true
+	translation: -1.43362,-2.85,4.5
+	scaling: 5.0
+	orientation: 1.0,0.0,0.0 -2.15
+	textures:
+		- rgb32: 4.0,8.0,1.0
