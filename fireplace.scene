@@ -33,11 +33,12 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Glass_35316
 	shadows: true
-	type: Regular
+	type: Transparent
+	twosided: true
 	textures:
-		- srgb: fireplace_grey_and_white_room-Glass_texture_color
+		- srgb: 1.0,1.0,1.0,0.01
 		- rgb: default_normal
-		- rgb: fireplace_grey_and_white_room-Glass_texture_rough_met_ao
+		- rgb: 0.01,0.0,1.0
 
 * object:
 	mesh: fireplace_grey_and_white_room-BottleCap_60660
@@ -51,11 +52,12 @@
 * object:
 	mesh: fireplace_grey_and_white_room-Glass_71796
 	shadows: true
-	type: Regular
+	type: Transparent
+	twosided: true
 	textures:
-		- srgb: fireplace_grey_and_white_room-Glass_texture_color
+		- srgb: 0.0,0.5,0.1,0.7
 		- rgb: default_normal
-		- rgb: fireplace_grey_and_white_room-Glass_texture_rough_met_ao
+		- rgb: 0.15,1.0,1.0
 
 * object:
 	mesh: fireplace_grey_and_white_room-TableWood_79950
