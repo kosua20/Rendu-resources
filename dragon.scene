@@ -1,100 +1,123 @@
 * probe: 
-	position: 0.0,0.25,0.5
-	extent: 20.0, 10.35, 20.0
-	center: 0.0,10.0,0.0
+	position: 0.000000 0.250000 0.500000 
+	extent: 20.000000 10.350000 20.000000 
+	center: 0.000000 10.000000 0.000000 
+	rotation: 0.000000 
 
 * background: 
-	sun: 2.0,1.5,0.0
-	animations:
-		- backandforth: 0.6 world 0.0,-1.0,0.0 0.65
+	sun: 0.800000 0.600000 0.000000 
+	animations: 
+		- backandforth: 0.600000 world 0.000000 -1.000000 0.000000 0.650000 
 
-* camera:
-	position: 0,0,1
-	center: 0,0,0
-	up: 0,1,0
-	fov: 1.3
+* object: 
+	shadows: true 
+	skipuvs: false 
+	mesh: suzanne 
+	animations: 
+		- rotation: 1.000000 model 0.000000 1.000000 0.000000 
+	scaling: 0.250000 
+	translation: 0.200000 0.000000 0.000000 
+	material: monkey 
 
-# Objects
-* object:
-	type: Regular
-	mesh: suzanne
-	translation: 0.2,0.0,0.0
-	scaling: 0.25
-	textures:
-		- srgb: suzanne_texture_color
-		- rgb: suzanne_texture_normal
-		- rgb: suzanne_texture_rough_met_ao
-	animations:
-		- rotation: 1.0 model 0.0,1.0,0.0 
-	shadows: true
+* object: 
+	shadows: true 
+	skipuvs: false 
+	mesh: dragon 
+	scaling: 0.500000 
+	translation: -0.100000 -0.050000 -0.250000 
+	material: dragon 
 
-* object:
-	type: Regular
-	mesh: dragon
-	translation: -0.1,-0.05,-0.25
-	scaling: 0.5
-	textures:
-		- srgb: dragon_texture_color
-		- rgb: dragon_texture_normal
+* object: 
+	shadows: false 
+	skipuvs: false 
+	mesh: groundplane 
+	scaling: 2.000000 
+	translation: 0.000000 -0.350000 -0.500000 
+	material: ground_parallax 
+
+* directional: 
+	intensity: 3.000000 3.000000 2.700000 
+	shadows: true 
+	animations: 
+		- backandforth: 0.600000 world 0.000000 1.000000 0.000000 0.650000 
+	direction: -0.800000 -0.600000 0.000000 
+
+* spot: 
+	intensity: 0.000000 30.000000 30.000000 
+	shadows: true 
+	animations: 
+		- backandforth: 0.500000 world 0.707107 0.000000 0.707107 2.000000 
+	position: 1.100000 2.000000 1.100000 
+	direction: -0.577350 -0.577350 -0.577350 
+	radius: 5.000000 
+	cone: 0.500000 0.600000 
+
+* point: 
+	intensity: 12.000000 0.000000 0.000000 
+	shadows: false 
+	animations: 
+		- rotation: 0.800000 world 0.000000 1.000000 0.000000 
+	position: -1.000000 -0.100000 -1.000000 
+	radius: 1.500000 
+
+* point: 
+	intensity: 0.000000 12.000000 0.000000 
+	shadows: false 
+	animations: 
+		- rotation: 0.800000 world 0.000000 1.000000 0.000000 
+	position: 1.000000 -0.100000 -1.000000 
+	radius: 1.500000 
+
+* point: 
+	intensity: 0.000000 0.000000 12.000000 
+	shadows: false 
+	animations: 
+		- rotation: 0.800000 world 0.000000 1.000000 0.000000 
+	position: -1.000000 -0.100000 1.000000 
+	radius: 1.500000 
+
+* point: 
+	intensity: 12.000000 12.000000 0.000000 
+	shadows: false 
+	animations: 
+		- rotation: 0.800000 world 0.000000 1.000000 0.000000 
+	position: 1.000000 -0.100000 1.000000 
+	radius: 1.500000 
+
+* camera: 
+	position: 0.000000 0.000000 1.000000 
+	center: 0.000000 0.000000 0.000000 
+	up: 0.000000 1.000000 0.000000 
+	fov: 1.300000 
+	planes: 0.010000 100.000000 
+
+* material: 
+	textures: 
+		- srgb: suzanne_texture_color 
+		- rgb: suzanne_texture_normal 
+		- rgb: suzanne_texture_rough_met_ao 
+	masked: false 
+	twosided: false 
+	type: Regular 
+	name: monkey 
+
+* material: 
+	textures: 
+		- srgb: dragon_texture_color 
+		- rgb: dragon_texture_normal 
 		- rgb: dragon_texture_rough_met_ao 
-	shadows: true
+	masked: false 
+	twosided: false 
+	type: Regular 
+	name: dragon 
 
-* object:
-	type: Parallax
-	mesh: groundplane
-	translation: 0.0,-0.35,-0.5
-	scaling: 2.0
-	textures:
+* material: 
+	textures: 
 		- srgb: groundplane_texture_color 
 		- rgb: groundplane_texture_normal 
 		- rgb: groundplane_texture_rough_met_ao 
 		- rgb: groundplane_texture_depth 
-	shadows: false
-
-# Lights
-
-* directional:
-	# Replicate the sun movement, the direction and animation should be the reverse of the sky ones.
-	direction: -2.0,-1.5,0.0
-	intensity: 3.0,3.0,2.7
-	shadows: true
-	animations:
-		- backandforth: 0.6 world 0.0,1.0,0.0 0.65
-		
-* spot:
-	position: 1.1,2.0,1.1
-	direction: -1.0,-1.0,-1.0
-	radius: 5.0
-	cone: 0.5 0.6
-	shadows: true
-	animations:
-		- backandforth: 0.5 world 1.0,0.0,1.0 2.0
-	intensity: 0.0,30.0,30.0
-* point:
-	position: -1.0,-0.1,-1.0
-	intensity: 12.0,0.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: 1.0,-0.1,-1.0
-	intensity: 0.0,12.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: -1.0,-0.1,1.0
-	intensity: 0.0,0.0,12.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
-* point:
-	position: 1.0,-0.1,1.0
-	intensity: 12.0,12.0,0.0
-	radius: 1.5
-	shadows: false
-	animations:
-		- rotation: 0.8 world 0.0,1.0,0.0
+	masked: false 
+	twosided: false 
+	type: Parallax 
+	name: ground_parallax 

@@ -1,49 +1,64 @@
+
 * probe: 
-	radiance: rgb32cube: studio_3
-	irradiance: studio_3_shcoeffs
+	radiance: rgb32cube: studio_3 
+	irradiance: studio_3_shcoeffs 
 
-* background:
-	cube: rgb32cube: studio_3
+* background: 
+	cube: rgb32cube: studio_3 
 
-* camera:
-	position: 2.0,0.2,2.0
-	center: 1.3,0.1,1.3
-	up: 0.0,1.0,0.0
-	fov: 1.3
-
-# Objects
-* object:
-	type: Regular
-	mesh: sphere
-	translation: 1.2,0.0,0.0
-	scaling: 0.9
-	textures:
-		- srgb: sphere_wood_lacquered_albedo
-		- rgb: sphere_wood_lacquered_normal
-		- rgb: sphere_wood_lacquered_rough_met_ao
-	animations:
-		- rotation: 0.2 model 0.0,1.0,0.0
-	shadows: true
-
-* object:
-	type: Regular
-	mesh: sphere
-	translation: -1.2,0.0,0.0
-	scaling: 0.9
-	textures:
-		- srgb: sphere_gold_worn_albedo
-		- rgb: sphere_gold_worn_normal
-		- rgb: sphere_gold_worn_rough_met_ao 
+* object: 
 	shadows: true 
+	skipuvs: false 
+	mesh: sphere 
+	animations: 
+		- rotation: 0.200000 model 0.000000 1.000000 0.000000 
+	scaling: 0.900000 
+	translation: 1.200000 0.000000 0.000000 
+	material: wood 
 
-# Lights
-* point:
-	position: 0.5,-0.1,1.0
-	intensity: 3.6,14.4,21.6
-	shadows: false
-	radius: 1.0
-* point:
-	position: -0.5,-0.1,1.0
-	intensity: 37.8,5.4,10.8
-	shadows: false
-	radius: 1.0
+* object: 
+	shadows: true 
+	skipuvs: false 
+	mesh: sphere 
+	scaling: 0.900000 
+	translation: -1.200000 0.000000 0.000000 
+	material: gold 
+
+* point: 
+	intensity: 3.600000 14.400000 21.600000 
+	shadows: false 
+	position: 0.500000 -0.100000 1.000000 
+	radius: 1.000000 
+
+* point: 
+	intensity: 37.799999 5.400000 10.800000 
+	shadows: false 
+	position: -0.500000 -0.100000 1.000000 
+	radius: 1.000000 
+
+* camera: 
+	position: 2.000000 0.200000 2.000000 
+	center: 1.300000 0.100000 1.300000 
+	up: -0.070707 0.989899 -0.070707 
+	fov: 1.300000 
+	planes: 0.010000 100.000000 
+
+* material: 
+	textures: 
+		- srgb: sphere_wood_lacquered_albedo 
+		- rgb: sphere_wood_lacquered_normal 
+		- rgb: sphere_wood_lacquered_rough_met_ao 
+	masked: false 
+	twosided: false 
+	type: Regular 
+	name: wood 
+
+* material: 
+	textures: 
+		- srgb: sphere_gold_worn_albedo 
+		- rgb: sphere_gold_worn_normal 
+		- rgb: sphere_gold_worn_rough_met_ao 
+	masked: false 
+	twosided: false 
+	type: Regular 
+	name: gold 
